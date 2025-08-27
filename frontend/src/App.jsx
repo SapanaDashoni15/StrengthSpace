@@ -1,9 +1,22 @@
 import React from 'react';
-import { ToastContainer } from 'react-tostify';
-import 'react-toastify/dist/ReactTostify.css';
-import {BrowserRouter as Router} from 'react-router-dom';
 
-const app = () => {
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+
+import {BrowserRouter as Router} from 'react-router-dom';
+import './App.css'
+import Navbar from './components/Navbar'
+import BMICalculator from './components/BMICalculator'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import Hero from './components/Hero'
+import Pricing from './components/Pricing'
+import WorkoutSessions from './components/WorkoutSessions'
+
+
+const App = () => {
   return (
     <Router>
       <Navbar />
@@ -19,3 +32,4 @@ const app = () => {
   )
 }
 
+export default App;
