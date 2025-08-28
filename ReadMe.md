@@ -37,14 +37,10 @@ Deployment: Vercel (client), Render/Heroku (server)
     - cd backend
     - npm install
 
-    <h4> create env file in backend inside /backend folder </h4> 
-    
-    <p> 
-    PORT=5000 <br/>
-    EMAIL_USER=your-email@gmail.com <br/>
-    EMAIL_PASS=your-app-password <br />
-    </p>
-    
+    // create env file in backend inside /backend folder
+    PORT=5000
+    EMAIL_USER=your-email@gmail.com
+    EMAIL_PASS=your-app-password
 
     - npm run dev
 

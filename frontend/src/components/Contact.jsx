@@ -9,6 +9,8 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
+
+// connecting backend with frontend
   const sendMail = async (e) => {
     e.preventDefault();
     setLoading(true);
