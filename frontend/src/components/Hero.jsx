@@ -15,8 +15,14 @@ const Hero = () => {
           <p>Unleash your potential</p>
         </div>
         <div className="buttons">
-          <button>Start your journey</button>
-          <button> Discover your Plan</button>
+          {/* First Button with Link */}
+          <a href="#sessions">
+            <button>Start your journey</button>
+          </a>
+          {/* Second Button with Link */}
+          <a href="#pricetag">
+            <button>Discover your plan</button>
+          </a>
         </div>
       </div>
     </section>

@@ -130,6 +130,10 @@ header p {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .workout_session {
   min-height: 100vh;
   display: flex;
