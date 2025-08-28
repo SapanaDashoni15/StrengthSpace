@@ -5,6 +5,12 @@ Features include a BMI calculator to track health and a contact form with automa
 
 ### Quick Glance
 
+Demo link - https://drive.google.com/file/d/1aEavi3ws9BNF8O3dW2hJSulu-xsbgzoE/view?usp=sharing
+<img width="1818" height="904" alt="image" src="https://github.com/user-attachments/assets/5a0b952d-1654-4f31-890a-cf3902309275" />
+<img width="1554" height="923" alt="image" src="https://github.com/user-attachments/assets/25957536-480e-4218-a4be-40f0464caa84" />
+<img width="1759" height="603" alt="image" src="https://github.com/user-attachments/assets/a5bddae3-f1dc-4472-a170-36a97a1ec511" />
+<img width="1818" height="789" alt="image" src="https://github.com/user-attachments/assets/bfad836d-1bfd-499a-b527-12ee0d81ab88" />
+<img width="1822" height="698" alt="image" src="https://github.com/user-attachments/assets/7ae6af01-10c2-4018-961a-0f08df8a904b" />
 
 
 ### Features
@@ -17,14 +23,14 @@ Responsive UI: Optimized for mobile, tablet, and desktop screens.
 
 Secure Backend: Built with Express.js, secured with Helmet and environment variables.
 
-Deployment: Frontend hosted on Netlify, backend on Vercel.
+Deployment: Frontend hosted on Vercel, backend on Vercel.
 
 ### Tech Stack
 
 Frontend: React.js, React Router, Axios, CSS (Flexbox/Grid)
 Backend: Node.js, Express.js, Nodemailer
-Security & Utilities: Helmet.js, dotenv, express-rate-limit
-Deployment: Vercel (client), Render/Heroku (server)
+Security & Utilities:  dotenv, express-rate-limit
+Deployment: Vercel
 
 
 ### Installation and Setup
@@ -51,4 +57,5 @@ Deployment: Vercel (client), Render/Heroku (server)
     - cd ../frontend
     - npm install 
     - npm run dev
+
 
